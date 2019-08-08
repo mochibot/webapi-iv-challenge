@@ -7,7 +7,7 @@
 ### API Endpoints:
 
 ##### Users
-Request | Endpoint | Description | Required body 
+Request | Path | Description | Required body 
 ---- | ---- | ---- | ----
 GET | /api/users | Get all users | 
 GET | /api/users/:id | Get a specific user | 
@@ -17,7 +17,7 @@ PUT | /api/users/:id | Update an user | {name: string}
 
 ##### Posts
 
-Request | Endpoint | Description | Required body
+Request | Path | Description | Required body
 ----|----|----|----
 GET | /api/posts | Get all posts| 
 GET | /api/posts/:id | Get a specific post| 
@@ -28,7 +28,7 @@ PUT | /api/posts/:id | Update a post | {text: string}
 
 ### Front-end:
 
-Endpoints | Description
+Path | Description
 ---|---
 /users | Display a list of all users
 /users:id | Display a list of all posts by a specific user
