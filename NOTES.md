@@ -6,23 +6,24 @@
 
 ### API Endpoints:
 
-Users
-Request | Endpoint |Description | Required body
----|---|---|---
-GET | /api/users |Get all users | none
-GET | /api/users/:id |Get a specific user | none
+##### Users
+Request | Endpoint | Description | Required body 
+---- | ---- | ---- | ----
+GET | /api/users | Get all users | 
+GET | /api/users/:id | Get a specific user | 
 POST | /api/users | Add an user | {name: string}
-DELETE | /api/users/:id | Delete an user| none
+DELETE | /api/users/:id | Delete an user| 
 PUT | /api/users/:id | Update an user | {name: string}
 
-Posts
-Request | Endpoint |Description |Required body
----|---|---|---
-GET | /api/posts |Get all posts| none
-GET | /api/posts/:id |Get a specific post| none
-GET | /api/users/:id/posts | Get all posts for a specific user| none
+##### Posts
+
+Request | Endpoint | Description | Required body
+----|----|----|----
+GET | /api/posts | Get all posts| 
+GET | /api/posts/:id | Get a specific post| 
+GET | /api/users/:id/posts | Get all posts for a specific user | 
 POST | /api/users/:id/posts | Add a post for a specific user | {text: string}
-DELETE | /api/posts/:id | Delete a post| none
+DELETE | /api/posts/:id | Delete a post | none
 PUT | /api/posts/:id | Update a post | {text: string}
 
 ### Front-end:
